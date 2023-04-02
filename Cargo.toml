@@ -6,3 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+#number_factorization = { path = "../number_factorization" }
+number_factorization = { git = "https://github.com/FrK5E/number_factorization.git" }
